@@ -1,0 +1,33 @@
+[20:26:21] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:26:22] [Render thread/ERROR]: Failed to verify authentication
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: null
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:97) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.<init>(YggdrasilSocialInteractionsService.java:40) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createSocialInteractionsService(YggdrasilAuthenticationService.java:152) ~[authlib-2.1.28.jar:?]
+	at djz.a(SourceFile:625) [1.16.5.jar:?]
+	at djz.<init>(SourceFile:409) [1.16.5.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:177) [1.16.5.jar:?]
+[20:26:22] [Render thread/INFO]: Setting user: oeasy
+[20:26:22] [Render thread/INFO]: Backend library: LWJGL version 3.2.1 build 12
+[20:26:26] [Render thread/INFO]: Reloading ResourceManager: Default
+[20:26:27] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[20:26:32] [Render thread/INFO]: OpenAL initialized.
+[20:26:32] [Render thread/INFO]: Sound engine started
+[20:26:33] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[20:26:33] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[20:26:33] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:26:33] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:26:33] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20:26:33] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20:26:33] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:26:34] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:26:34] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:26:34] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20:26:41] [Render thread/WARN]: Unable to start LAN server detection: Can't assign requested address
+[20:26:46] [Render thread/INFO]: Connecting to localhost, 25565
+[20:27:41] [Render thread/INFO]: Connecting to localhost, 25565
+[20:29:46] [Render thread/INFO]: Connecting to localhost, 25565
+[20:29:52] [Render thread/WARN]: Unable to start LAN server detection: Can't assign requested address
+[20:29:52] [Render thread/WARN]: Unable to start LAN server detection: Can't assign requested address
+[20:29:53] [Render thread/WARN]: Unable to start LAN server detection: Can't assign requested address
+[20:30:01] [Render thread/INFO]: Connecting to 127.0.0.1, 25565
